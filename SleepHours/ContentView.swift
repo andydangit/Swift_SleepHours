@@ -20,11 +20,11 @@ struct ContentView: View {
 //            .padding()
 //        
 //        Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 5...12, step: 0.25)
-        
-        Text(Date.now, format: .dateTime.hour().minute())
-        Text(Date.now, format: .dateTime.day().month().year())
-        Text(Date.now.formatted(date: .long, time: .shortened))
-        
+//        
+//        Text(Date.now, format: .dateTime.hour().minute())
+//        Text(Date.now, format: .dateTime.day().month().year())
+//        Text(Date.now.formatted(date: .long, time: .shortened))
+        Text("test")
         
     }
     
@@ -37,10 +37,10 @@ struct ContentView: View {
 //        components.hour = 8
 //        components.minute = 0
 //        let date = Calendar.current.date(from: components) ?? .now
-        
-        let components = Calendar.current.dateComponents([.hour, .minute], from: .now)
-        let hour = components.hour ?? 0
-        let minute = components.minute ?? 0
+//        
+//        let components = Calendar.current.dateComponents([.hour, .minute], from: .now)
+//        let hour = components.hour ?? 0
+//        let minute = components.minute ?? 0
         
     }
     
